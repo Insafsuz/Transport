@@ -1,0 +1,66 @@
+//<FORM ()>===========================================================
+.form {
+	display: flex;
+	&__input {
+		input {
+			height: 46px;
+			width: 358px;
+			background-color: #4f5f6c;
+			color: #99abb8;
+			font-size: 15px;
+			padding: 0px 0px 0px 20px;
+			@media (max-width: 425px) {
+				width: 200px;
+			}
+		}
+	}
+	&__button {
+		button {
+			width: 53px;
+			height: 46px;
+			background-color: #50b9ce;
+			font-size: 20px;
+			color: #fff;
+			transition: all 0.5s ease;
+			&:hover {
+				color: #000;
+			}
+		}
+	}
+}
+
+//</FORM>=============================================================
+
+//<BUTTONS>===========================================================
+.btn {
+	display: inline-flex;
+	align-items: center;
+	min-height: 50px;
+	background-color: #e04622;
+	color: #ffffff;
+	font-weight: 700;
+	text-transform: uppercase;
+	transition: all 0.5s ease;
+	@media (min-width: 992px) {
+		&:hover {
+			background-color: #c03819;
+		}
+	}
+	&.btn--b {
+		background-color: #50b9ce;
+		@media (min-width: 992px) {
+			&:hover {
+				background-color: #3591a3;
+			}
+		}
+	}
+	@media (max-width: 425px) {
+		padding: 0px 25px;
+	}
+}
+
+//</BUTTONS>===========================================================
+
+//<INPUT===============================================================
+
+//</INPUT>=============================================================
